@@ -1,0 +1,29 @@
+#
+#Created by: Wendi Yu
+#Created on: April 2018
+#
+# Random number
+
+guess_number = int(input("Pick a number from 1 to 6 : "))
+
+
+
+from random import randint
+
+random_number = randint( 1,6 )
+
+print(random_number)
+	
+
+
+if guess_number == random_number:
+  
+	print("Correct, You get it! ")
+
+else: 
+  
+	print( "Sorry, the number is ",random_number)
+  
+
+
+input()
